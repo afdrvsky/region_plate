@@ -89,9 +89,15 @@ class MainActivity : AppCompatActivity() {
         return regionsMap
     }
 
-    fun findRegionByNumber(regionNumber: String) {
+    fun findRegionByNumber(regionNumber: String) : String? {
         val regionsMap: MutableMap<String, List<String>> = deserializeJson()
-//        regionsMap.filterValues { it.equals("77") }.keys
-//        regionsMap.forEach { it.value.equals("77") }
+        var regionName: String? = null
+        for (i in regionsMap.values.indices) {
+            var region = regionsMap.filterValues { it.get(i).equals(regionNumber) }.keys
+            if (!region.isEmpty()) {
+                regionName = region.toString().substring( 1, region.toString().length - 1 )
+            }
+        }
+        return regionName
     }
 }
