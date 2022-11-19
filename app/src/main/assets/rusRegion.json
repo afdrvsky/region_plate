@@ -1,0 +1,12 @@
+{
+	"country": "Russian Federation",
+	"regions": [{
+		"regionName": "Волгоградская область",
+		"regionNumber": ["34", "134"]
+	},
+	{
+		"regionName": "Москва",
+		"regionNumber": ["77", "97", "99", "177", "197", "199", "277", "777", "797", "799", "997", "999"]
+	}
+]
+}
