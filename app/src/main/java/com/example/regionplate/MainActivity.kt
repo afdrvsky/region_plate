@@ -18,7 +18,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        findRegionByNumber("77")
         val justPlate = findViewById<ImageView>(R.id.plate_rus)
         val justRegion = findViewById<EditText>(R.id.regionNumber)
         val regionPlate = mutableListOf<View>()
@@ -39,14 +38,7 @@ class MainActivity : AppCompatActivity() {
         override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
             val justRegion = findViewById<EditText>(R.id.regionNumber)
             val outputText = findViewById<TextView>(R.id.outputRegion)
-            when (justRegion.text.toString()) {
-                "" -> outputText.setText("")
-                "77", "777", "97", "197" -> outputText.setText("МОСКВА")
-                "34", "134" -> outputText.setText("ВОЛГОГРАД")
-                else -> {
-                    outputText.setText("Я ХЗ БРАТ")
-                }
-            }
+            outputText.setText(findRegionByNumber(justRegion.text.toString()))
         }
 
         override fun afterTextChanged(p0: Editable?) {
