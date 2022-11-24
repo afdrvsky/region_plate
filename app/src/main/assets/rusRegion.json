@@ -1,12 +1,225 @@
 {
-	"country": "Russian Federation",
-	"regions": [{
-		"regionName": "Волгоградская область",
-		"regionNumber": ["34", "134"]
-	},
-	{
-		"regionName": "Москва",
-		"regionNumber": ["77", "97", "99", "177", "197", "199", "277", "777", "797", "799", "997", "999"]
-	}
-]
+  "country": "Russian Federation",
+  "regions": [
+    {
+      "regionName": "Волгоградская область",
+      "regionNumber": [
+        "34",
+        "134"
+      ]
+    },
+    {
+      "regionName": "Москва",
+      "regionNumber": [
+        "77",
+        "97",
+        "99",
+        "177",
+        "197",
+        "199",
+        "277",
+        "777",
+        "797",
+        "799",
+        "997",
+        "999"
+      ]
+    },
+    {
+      "regionName": "Республика Адыгея",
+      "regionNumber": [
+        "01",
+        "101"
+      ]
+    },
+    {
+      "regionName": "Республика Башкортостан",
+      "regionNumber": [
+        "02",
+        "102",
+        "702"
+      ]
+    },
+    {
+      "regionName": "Республика Бурятия",
+      "regionNumber": [
+        "03",
+        "103"
+      ]
+    },
+    {
+      "regionName": "Республика Алтай",
+      "regionNumber": [
+        "04"
+      ]
+    },
+    {
+      "regionName": "Республика Дагестан",
+      "regionNumber": [
+        "05"
+      ]
+    },
+    {
+      "regionName": "Республика Ингушетия",
+      "regionNumber": [
+        "06"
+      ]
+    },
+    {
+      "regionName": "Кабардино-Балкарская Республика",
+      "regionNumber": [
+        "07"
+      ]
+    },
+    {
+      "regionName": "Республика Калмыкия",
+      "regionNumber": [
+        "08"
+      ]
+    },
+    {
+      "regionName": "Республика Карачаево-Черкесия",
+      "regionNumber": [
+        "09",
+        "109"
+      ]
+    },
+    {
+      "regionName": "Республика Карелия",
+      "regionNumber": [
+        "10"
+      ]
+    },
+    {
+      "regionName": "Республика Коми",
+      "regionNumber": [
+        "11",
+        "111"
+      ]
+    },
+    {
+      "regionName": "Республика Крым",
+      "regionNumber": [
+        "82"
+      ]
+    },
+    {
+      "regionName": "Республика Марий Эл",
+      "regionNumber": [
+        "12"
+      ]
+    },
+    {
+      "regionName": "Республика Мордовия",
+      "regionNumber": [
+        "13",
+        "113"
+      ]
+    },
+    {
+      "regionName": "Республика Саха (Якутия)",
+      "regionNumber": [
+        "14"
+      ]
+    },
+    {
+      "regionName": "Республика Северная Осетия — Алания",
+      "regionNumber": [
+        "15"
+      ]
+    },
+    {
+      "regionName": "Республика Татарстан",
+      "regionNumber": [
+        "16",
+        "116",
+        "716"
+      ]
+    },
+    {
+      "regionName": "Республика Тыва",
+      "regionNumber": [
+        "17"
+      ]
+    },
+    {
+      "regionName": "Удмуртская Республика",
+      "regionNumber": [
+        "18, 118"
+      ]
+    },
+    {
+      "regionName": "Республика Хакасия",
+      "regionNumber": [
+        "19"
+      ]
+    },
+    {
+      "regionName": "Чеченская Республика",
+      "regionNumber": [
+        "20",
+        "95"
+      ]
+    },
+    {
+      "regionName": "Чувашская Республика",
+      "regionNumber": [
+        "21",
+        "121"
+      ]
+    },
+    {
+      "regionName": "Алтайский край",
+      "regionNumber": [
+        "22",
+        "122"
+      ]
+    },
+    {
+      "regionName": "Забайкальский край",
+      "regionNumber": [
+        "75",
+        "80"
+      ]
+    },
+    {
+      "regionName": "Камчатский край",
+      "regionNumber": [
+        "41"
+      ]
+    },
+    {
+      "regionName": "Краснодарский край",
+      "regionNumber": [
+        "23",
+        "93",
+        "123",
+        "193"
+      ]
+    },
+    {
+      "regionName": "Красноярский край",
+      "regionNumber": [
+        "24",
+        "84",
+        "88",
+        "124"
+      ]
+    },
+    {
+      "regionName": "Пермский край",
+      "regionNumber": [
+        "59",
+        "81",
+        "159"
+      ]
+    },
+    {
+      "regionName": "Приморский край",
+      "regionNumber": [
+        "25",
+        "125"
+      ]
+    }
+  ]
 }

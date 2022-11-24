@@ -39,6 +39,9 @@ class MainActivity : AppCompatActivity() {
             val justRegion = findViewById<EditText>(R.id.regionNumber)
             val outputText = findViewById<TextView>(R.id.outputRegion)
             outputText.setText(findRegionByNumber(justRegion.text.toString()))
+            if (justRegion.text.isEmpty()) {
+                outputText.setText("")
+            }
         }
 
         override fun afterTextChanged(p0: Editable?) {
@@ -81,14 +84,14 @@ class MainActivity : AppCompatActivity() {
         return regionsMap
     }
 
-    fun findRegionByNumber(regionNumber: String) : String? {
+    fun findRegionByNumber(regionNumber: String): String? {
         val regionsMap: MutableMap<String, List<String>> = deserializeJson()
-        var regionName: String? = null
-        for (i in regionsMap.values.indices) {
-            var region = regionsMap.filterValues { it.get(i).equals(regionNumber) }.keys
-            if (!region.isEmpty()) {
-                regionName = region.toString().substring( 1, region.toString().length - 1 )
-            }
+        var regionName: String?
+        var region = regionsMap.filterValues { it.contains(regionNumber) }.keys
+        if (!region.isEmpty()) {
+            regionName = region.toString().substring(1, region.toString().length - 1)
+        } else {
+            regionName = "Регион не найден"
         }
         return regionName
     }
