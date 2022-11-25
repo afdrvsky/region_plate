@@ -20,7 +20,7 @@
             android:contentDescription="@string/plate_rus"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/plate" />
+            app:srcCompat="@drawable/plate_rus" />
 
         <EditText
             android:id="@+id/regionNumber"
