@@ -47,12 +47,12 @@
 
         <TextView
             android:id="@+id/outputRegion"
-            android:layout_width="289dp"
-            android:layout_height="55dp"
+            android:layout_width="301dp"
+            android:layout_height="209dp"
             android:layout_marginTop="24dp"
             android:fontFamily="@font/spectral"
+            android:gravity="top|center"
             android:textColor="@color/black"
-            android:gravity="center"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

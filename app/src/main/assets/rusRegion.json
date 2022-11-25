@@ -220,6 +220,371 @@
         "25",
         "125"
       ]
+    },
+    {
+      "regionName": "Ставропольский край",
+      "regionNumber": [
+        "26",
+        "126"
+      ]
+    },
+    {
+      "regionName": "Хабаровский край",
+      "regionNumber": [
+        "27"
+      ]
+    },
+    {
+      "regionName": "Амурская область",
+      "regionNumber": [
+        "28"
+      ]
+    },
+    {
+      "regionName": "Архангельская область",
+      "regionNumber": [
+        "29"
+      ]
+    },
+    {
+      "regionName": "Астраханская область",
+      "regionNumber": [
+        "30",
+        "130"
+      ]
+    },
+    {
+      "regionName": "Белгородская область",
+      "regionNumber": [
+        "31"
+      ]
+    },
+    {
+      "regionName": "Брянская область",
+      "regionNumber": [
+        "32"
+      ]
+    },
+    {
+      "regionName": "Владимирская область",
+      "regionNumber": [
+        "33"
+      ]
+    },
+    {
+      "regionName": "Вологодская область",
+      "regionNumber": [
+        "35"
+      ]
+    },
+    {
+      "regionName": "Воронежская область",
+      "regionNumber": [
+        "36",
+        "136"
+      ]
+    },
+    {
+      "regionName": "Ивановская область",
+      "regionNumber": [
+        "37"
+      ]
+    },
+    {
+      "regionName": "Иркутская область",
+      "regionNumber": [
+        "38",
+        "85",
+        "138"
+      ]
+    },
+    {
+      "regionName": "Калининградская область",
+      "regionNumber": [
+        "39",
+        "91"
+      ]
+    },
+    {
+      "regionName": "Калужская область",
+      "regionNumber": [
+        "40"
+      ]
+    },
+    {
+      "regionName": "Кемеровская область",
+      "regionNumber": [
+        "42",
+        "142"
+      ]
+    },
+    {
+      "regionName": "Кировская область",
+      "regionNumber": [
+        "43"
+      ]
+    },
+    {
+      "regionName": "Курганская область",
+      "regionNumber": [
+        "45"
+      ]
+    },
+    {
+      "regionName": "Костромская область",
+      "regionNumber": [
+        "44"
+      ]
+    },
+    {
+      "regionName": "Курская область",
+      "regionNumber": [
+        "46"
+      ]
+    },
+    {
+      "regionName": "Ленинградская область",
+      "regionNumber": [
+        "47",
+        "147"
+      ]
+    },
+    {
+      "regionName": "Липецкая область",
+      "regionNumber": [
+        "48"
+      ]
+    },
+    {
+      "regionName": "Магаданская область",
+      "regionNumber": [
+        "49"
+      ]
+    },
+    {
+      "regionName": "Московская область",
+      "regionNumber": [
+        "50",
+        "90",
+        "150",
+        "190",
+        "750",
+        "790"
+      ]
+    },
+    {
+      "regionName": "Мурманская область",
+      "regionNumber": [
+        "51"
+      ]
+    },
+    {
+      "regionName": "Нижегородская область",
+      "regionNumber": [
+        "52",
+        "152",
+        "752"
+      ]
+    },
+    {
+      "regionName": "Новгородская область",
+      "regionNumber": [
+        "53"
+      ]
+    },
+    {
+      "regionName": "Новосибирская область",
+      "regionNumber": [
+        "54",
+        "154",
+        "754"
+      ]
+    },
+    {
+      "regionName": "Омская область",
+      "regionNumber": [
+        "55",
+        "155"
+      ]
+    },
+    {
+      "regionName": "Оренбургская область",
+      "regionNumber": [
+        "56",
+        "156"
+      ]
+    },
+    {
+      "regionName": "Орловская область",
+      "regionNumber": [
+        "57"
+      ]
+    },
+    {
+      "regionName": "Пензенская область",
+      "regionNumber": [
+        "58",
+        "158"
+      ]
+    },
+    {
+      "regionName": "Псковская область",
+      "regionNumber": [
+        "60"
+      ]
+    },
+    {
+      "regionName": "Ростовская область",
+      "regionNumber": [
+        "61",
+        "161",
+        "761"
+      ]
+    },
+    {
+      "regionName": "Рязанская область",
+      "regionNumber": [
+        "62"
+      ]
+    },
+    {
+      "regionName": "Самарская область",
+      "regionNumber": [
+        "63",
+        "163",
+        "763"
+      ]
+    },
+    {
+      "regionName": "Саратовская область",
+      "regionNumber": [
+        "64",
+        "164"
+      ]
+    },
+    {
+      "regionName": "Сахалинская область",
+      "regionNumber": [
+        "65"
+      ]
+    },
+    {
+      "regionName": "Свердловская область",
+      "regionNumber": [
+        "66",
+        "96",
+        "196"
+      ]
+    },
+    {
+      "regionName": "Смоленская область",
+      "regionNumber": [
+        "67"
+      ]
+    },
+    {
+      "regionName": "Тамбовская область",
+      "regionNumber": [
+        "68"
+      ]
+    },
+    {
+      "regionName": "Тверская область",
+      "regionNumber": [
+        "69"
+      ]
+    },
+    {
+      "regionName": "Томская область",
+      "regionNumber": [
+        "70"
+      ]
+    },
+    {
+      "regionName": "Тульская область",
+      "regionNumber": [
+        "71"
+      ]
+    },
+    {
+      "regionName": "Тюменская область",
+      "regionNumber": [
+        "72",
+        "172"
+      ]
+    },
+    {
+      "regionName": "Ульяновская область",
+      "regionNumber": [
+        "73",
+        "173"
+      ]
+    },
+    {
+      "regionName": "Челябинская область",
+      "regionNumber": [
+        "74",
+        "174",
+        "774"
+      ]
+    },
+    {
+      "regionName": "Ярославская область",
+      "regionNumber": [
+        "76"
+      ]
+    },
+    {
+      "regionName": "Санкт-Петербург",
+      "regionNumber": [
+        "78",
+        "98",
+        "178",
+        "198"
+      ]
+    },
+    {
+      "regionName": "Севастополь",
+      "regionNumber": [
+        "92"
+      ]
+    },
+    {
+      "regionName": "Еврейская автономная область",
+      "regionNumber": [
+        "79"
+      ]
+    },
+    {
+      "regionName": "Ненецкий автономный округ",
+      "regionNumber": [
+        "83"
+      ]
+    },
+    {
+      "regionName": "Ханты-Мансийский автономный округ — Югра",
+      "regionNumber": [
+        "86",
+        "186"
+      ]
+    },
+    {
+      "regionName": "Чукотский автономный округ",
+      "regionNumber": [
+        "87"
+      ]
+    },
+    {
+      "regionName": "Ямало-Ненецкий автономный округ",
+      "regionNumber": [
+        "89"
+      ]
+    },
+    {
+      "regionName": "Территории, находящиеся за пределами РФ и обслуживаемые Управлением режимных объектов МВД России, Байконур",
+      "regionNumber": [
+        "94"
+      ]
     }
   ]
 }
