@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Регион по номеру</string>
     <string name="plate_rus">Region Plate</string>
+    <string name="region_not_found">Регион не найден</string>
+    <string name="type_region">Введите код региона</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

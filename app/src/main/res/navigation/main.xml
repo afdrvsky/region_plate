@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/russia">
+    <fragment
+        android:id="@+id/russia"
+        android:name="com.example.regionplate.RussiaFragment"
+        android:label="fragment_russia"
+        tools:layout="@layout/fragment_russia" />
+    <fragment
+        android:id="@+id/turkey"
+        android:name="com.example.regionplate.TurkeyFragment"
+        android:label="fragment_turkey"
+        tools:layout="@layout/fragment_turkey" />
+</navigation>

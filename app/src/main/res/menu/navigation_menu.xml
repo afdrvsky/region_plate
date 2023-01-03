@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/russia"
+        android:title="Россия"
+        android:icon="@drawable/ru_flag"/>
+    <item android:id="@+id/turkey"
+        android:title="Турция"
+        android:icon="@drawable/tr_flag"/>
+
+</menu>

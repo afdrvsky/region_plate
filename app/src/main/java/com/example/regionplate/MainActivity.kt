@@ -1,98 +1,33 @@
 package com.example.regionplate
 
-import android.content.Context
 import android.os.Bundle
-import android.text.Editable
-import android.text.TextWatcher
 import android.view.View
-import android.view.animation.TranslateAnimation
-import android.widget.EditText
 import android.widget.ImageView
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.google.gson.Gson
-import java.io.IOException
+import androidx.core.view.GravityCompat
+import androidx.drawerlayout.widget.DrawerLayout
+import androidx.navigation.NavController
+import androidx.navigation.Navigation
+import androidx.navigation.ui.NavigationUI
+import com.google.android.material.navigation.NavigationView
 
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val justPlate = findViewById<ImageView>(R.id.plate_rus)
-        val justRegion = findViewById<EditText>(R.id.regionNumber)
-        val regionPlate = mutableListOf<View>()
-        regionPlate.add(justPlate)
-        regionPlate.add(justRegion)
+        val drawerLayout: DrawerLayout = findViewById(R.id.drawerLayout)
 
-        for (i in regionPlate) {
-            animationOnStart(i)
-        }
-
-        justRegion.addTextChangedListener(textWatcher)
-    }
-
-    private val textWatcher = object : TextWatcher {
-        override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
-        }
-
-        override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
-            val justRegion = findViewById<EditText>(R.id.regionNumber)
-            val outputText = findViewById<TextView>(R.id.outputRegion)
-            outputText.setText(findRegionByNumber(justRegion.text.toString()))
-            if (justRegion.text.isEmpty()) {
-                outputText.setText("")
+        findViewById<ImageView>(R.id.menu).setOnClickListener(object : View.OnClickListener{
+            override fun onClick(p0: View?) {
+                drawerLayout.openDrawer(GravityCompat.START)
             }
-        }
+        })
 
-        override fun afterTextChanged(p0: Editable?) {
-        }
+        val navigationView: NavigationView = findViewById(R.id.navigation_menu)
+        navigationView.itemIconTintList = null
 
-    }
-
-    fun animationOnStart(view: View) {
-        val moveLefttoRight = TranslateAnimation(-1000f, 0f, 0f, 0f)
-        moveLefttoRight.duration = 500
-        moveLefttoRight.fillAfter = true
-        view.startAnimation(moveLefttoRight)
-    }
-
-    fun getJsonDataFromAsset(context: Context, fileName: String): String? {
-        val jsonString: String
-        try {
-            jsonString = context.assets.open(fileName).bufferedReader().use { it.readText() }
-        } catch (ioException: IOException) {
-            ioException.printStackTrace()
-            return null
-        }
-        return jsonString
-    }
-
-    fun deserializeJson(): MutableMap<String, List<String>> {
-        val fileName = """rusRegion.json"""
-        val gson = Gson()
-        val json = getJsonDataFromAsset(applicationContext, fileName)
-        val jsonData = gson.fromJson(json, RussianRegionData::class.java)
-        val regionsMap: MutableMap<String, List<String>> = mutableMapOf()
-        for (i in jsonData.regions.indices) {
-            for (j in jsonData.regions.get(i).regionNumber.indices) {
-                regionsMap.put(
-                    jsonData.regions.get(i).regionName,
-                    jsonData.regions.get(i).regionNumber
-                )
-            }
-        }
-        return regionsMap
-    }
-
-    fun findRegionByNumber(regionNumber: String): String? {
-        val regionsMap: MutableMap<String, List<String>> = deserializeJson()
-        var regionName: String?
-        var region = regionsMap.filterValues { it.contains(regionNumber) }.keys
-        if (!region.isEmpty()) {
-            regionName = region.toString().substring(1, region.toString().length - 1)
-        } else {
-            regionName = "Регион не найден"
-        }
-        return regionName
+        val navController: NavController = Navigation.findNavController(this, R.id.nawHostFragment)
+        NavigationUI.setupWithNavController(navigationView, navController)
     }
 }

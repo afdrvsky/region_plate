@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".TurkeyFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/plate_tr"
+            android:layout_width="363dp"
+            android:layout_height="255dp"
+            android:layout_marginTop="45dp"
+            android:contentDescription="@string/plate_rus"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/plate_tr" />
+
+        <TextView
+            android:id="@+id/outputRegion"
+            android:layout_width="301dp"
+            android:layout_height="209dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/gothic_a1_medium"
+            android:gravity="top|center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="@string/type_region"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/plate_tr" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
