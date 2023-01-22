@@ -55,22 +55,23 @@ class RussiaFragment : Fragment() {
 
     }
 
-    fun getJsonDataFromAsset(context: Context, fileName: String): String? {
-        val jsonString: String
-        try {
-            jsonString = context.assets.open(fileName).bufferedReader().use { it.readText() }
-        } catch (ioException: IOException) {
-            ioException.printStackTrace()
-            return null
+    fun findRegionByNumber(regionNumber: String): String {
+        var fileName = "rusRegion.json"
+        val regionsMap: MutableMap<String, List<String>> = deserializeJson(fileName)
+        var regionName: String?
+        var region = regionsMap.filterValues { it.contains(regionNumber) }.keys
+        if (!region.isEmpty()) {
+            regionName = region.toString().substring(1, region.toString().length - 1)
+        } else {
+            regionName = getString(R.string.region_not_found)
         }
-        return jsonString
+        return regionName
     }
 
-    fun deserializeJson(): MutableMap<String, List<String>> {
-        val fileName = """rusRegion.json"""
+    fun deserializeJson(fileName: String): MutableMap<String, List<String>> {
         val gson = Gson()
-        val json = getJsonDataFromAsset(requireActivity().applicationContext, fileName)
-        val jsonData = gson.fromJson(json, RussianRegionData::class.java)
+        val json = getJsonDataFromAsset(requireActivity(), fileName)
+        val jsonData = gson.fromJson(json, RegionData::class.java)
         val regionsMap: MutableMap<String, List<String>> = mutableMapOf()
         for (i in jsonData.regions.indices) {
             for (j in jsonData.regions.get(i).regionNumber.indices) {
@@ -83,15 +84,14 @@ class RussiaFragment : Fragment() {
         return regionsMap
     }
 
-    fun findRegionByNumber(regionNumber: String): String? {
-        val regionsMap: MutableMap<String, List<String>> = deserializeJson()
-        var regionName: String?
-        var region = regionsMap.filterValues { it.contains(regionNumber) }.keys
-        if (!region.isEmpty()) {
-            regionName = region.toString().substring(1, region.toString().length - 1)
-        } else {
-            regionName = getString(R.string.region_not_found)
+    fun getJsonDataFromAsset(context: Context, fileName: String): String? {
+        val jsonString: String
+        try {
+            jsonString = context.assets.open(fileName).bufferedReader().use { it.readText() }
+        } catch (ioException: IOException) {
+            ioException.printStackTrace()
+            return null
         }
-        return regionName
+        return jsonString
     }
 }

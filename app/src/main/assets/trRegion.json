@@ -1,0 +1,485 @@
+{
+  "country": "Turkey",
+  "regions": [
+    {
+      "regionName": "Adana",
+      "regionNumber": [
+        "01"
+      ]
+    },
+    {
+      "regionName": "Adıyaman",
+      "regionNumber": [
+        "02"
+      ]
+    },
+    {
+      "regionName": "Afyonkarahisar",
+      "regionNumber": [
+        "03"
+      ]
+    },
+    {
+      "regionName": "Ağrı",
+      "regionNumber": [
+        "04"
+      ]
+    },
+    {
+      "regionName": "Amasya",
+      "regionNumber": [
+        "05"
+      ]
+    },
+    {
+      "regionName": "Ankara",
+      "regionNumber": [
+        "06"
+      ]
+    },
+    {
+      "regionName": "Antalya",
+      "regionNumber": [
+        "07"
+      ]
+    },
+    {
+      "regionName": "Artvin",
+      "regionNumber": [
+        "08"
+      ]
+    },
+    {
+      "regionName": "Aydın",
+      "regionNumber": [
+        "09"
+      ]
+    },
+    {
+      "regionName": "Balıkesir",
+      "regionNumber": [
+        "10"
+      ]
+    },
+    {
+      "regionName": "Bilecik",
+      "regionNumber": [
+        "11"
+      ]
+    },
+    {
+      "regionName": "Bingöl",
+      "regionNumber": [
+        "12"
+      ]
+    },
+    {
+      "regionName": "Bitlis",
+      "regionNumber": [
+        "13"
+      ]
+    },
+    {
+      "regionName": "Burdur",
+      "regionNumber": [
+        "15"
+      ]
+    },
+    {
+      "regionName": "Bursa",
+      "regionNumber": [
+        "16"
+      ]
+    },
+    {
+      "regionName": "Çanakkale",
+      "regionNumber": [
+        "17"
+      ]
+    },
+    {
+      "regionName": "Çankırı",
+      "regionNumber": [
+        "18"
+      ]
+    },
+    {
+      "regionName": "Çorum",
+      "regionNumber": [
+        "19"
+      ]
+    },
+    {
+      "regionName": "Denizli",
+      "regionNumber": [
+        "20"
+      ]
+    },
+    {
+      "regionName": "Diyarbakır",
+      "regionNumber": [
+        "21"
+      ]
+    },
+    {
+      "regionName": "Edirne",
+      "regionNumber": [
+        "22"
+      ]
+    },
+    {
+      "regionName": "Elazığ",
+      "regionNumber": [
+        "23"
+      ]
+    },
+    {
+      "regionName": "Erzincan",
+      "regionNumber": [
+        "24"
+      ]
+    },
+    {
+      "regionName": "Erzurum",
+      "regionNumber": [
+        "25"
+      ]
+    },
+    {
+      "regionName": "Eskişehir",
+      "regionNumber": [
+        "26"
+      ]
+    },
+    {
+      "regionName": "Gaziantep",
+      "regionNumber": [
+        "27"
+      ]
+    },
+    {
+      "regionName": "Giresun",
+      "regionNumber": [
+        "28"
+      ]
+    },
+    {
+      "regionName": "Gümüşhane",
+      "regionNumber": [
+        "29"
+      ]
+    },
+    {
+      "regionName": "Hakkâri",
+      "regionNumber": [
+        "30"
+      ]
+    },
+    {
+      "regionName": "Hatay",
+      "regionNumber": [
+        "31"
+      ]
+    },
+    {
+      "regionName": "Isparta",
+      "regionNumber": [
+        "32"
+      ]
+    },
+    {
+      "regionName": "Mersin",
+      "regionNumber": [
+        "33"
+      ]
+    },
+    {
+      "regionName": "İstanbul",
+      "regionNumber": [
+        "34"
+      ]
+    },
+    {
+      "regionName": "İzmir",
+      "regionNumber": [
+        "35"
+      ]
+    },
+    {
+      "regionName": "Kars",
+      "regionNumber": [
+        "36"
+      ]
+    },
+    {
+      "regionName": "Kastamonu",
+      "regionNumber": [
+        "37"
+      ]
+    },
+    {
+      "regionName": "Kayseri",
+      "regionNumber": [
+        "38"
+      ]
+    },
+    {
+      "regionName": "Kırklareli",
+      "regionNumber": [
+        "39"
+      ]
+    },
+    {
+      "regionName": "Kırşehir",
+      "regionNumber": [
+        "40"
+      ]
+    },
+    {
+      "regionName": "Kocaeli",
+      "regionNumber": [
+        "41"
+      ]
+    },
+    {
+      "regionName": "Konya",
+      "regionNumber": [
+        "42"
+      ]
+    },
+    {
+      "regionName": "Kütahya",
+      "regionNumber": [
+        "43"
+      ]
+    },
+    {
+      "regionName": "Malatya",
+      "regionNumber": [
+        "44"
+      ]
+    },
+    {
+      "regionName": "Manisa",
+      "regionNumber": [
+        "45"
+      ]
+    },
+    {
+      "regionName": "Kahramanmaraş",
+      "regionNumber": [
+        "46"
+      ]
+    },
+    {
+      "regionName": "Mardin",
+      "regionNumber": [
+        "47"
+      ]
+    },
+    {
+      "regionName": "Muğla",
+      "regionNumber": [
+        "48"
+      ]
+    },
+    {
+      "regionName": "Muş",
+      "regionNumber": [
+        "49"
+      ]
+    },
+    {
+      "regionName": "Nevşehir",
+      "regionNumber": [
+        "50"
+      ]
+    },
+    {
+      "regionName": "Niğde",
+      "regionNumber": [
+        "51"
+      ]
+    },
+    {
+      "regionName": "Ordu",
+      "regionNumber": [
+        "52"
+      ]
+    },
+    {
+      "regionName": "Rize",
+      "regionNumber": [
+        "53"
+      ]
+    },
+    {
+      "regionName": "Sakarya",
+      "regionNumber": [
+        "54"
+      ]
+    },
+    {
+      "regionName": "Samsun",
+      "regionNumber": [
+        "55"
+      ]
+    },
+    {
+      "regionName": "Siirt",
+      "regionNumber": [
+        "56"
+      ]
+    },
+    {
+      "regionName": "Sinop",
+      "regionNumber": [
+        "57"
+      ]
+    },
+    {
+      "regionName": "Sivas",
+      "regionNumber": [
+        "58"
+      ]
+    },
+    {
+      "regionName": "Tekirdağ",
+      "regionNumber": [
+        "59"
+      ]
+    },
+    {
+      "regionName": "Tokat",
+      "regionNumber": [
+        "60"
+      ]
+    },
+    {
+      "regionName": "Trabzon",
+      "regionNumber": [
+        "61"
+      ]
+    },
+    {
+      "regionName": "Tunceli",
+      "regionNumber": [
+        "62"
+      ]
+    },
+    {
+      "regionName": "Şanlıurfa",
+      "regionNumber": [
+        "63"
+      ]
+    },
+    {
+      "regionName": "Uşak",
+      "regionNumber": [
+        "64"
+      ]
+    },
+    {
+      "regionName": " Van",
+      "regionNumber": [
+        "65"
+      ]
+    },
+    {
+      "regionName": "Yozgat",
+      "regionNumber": [
+        "66"
+      ]
+    },
+    {
+      "regionName": "Zonguldak",
+      "regionNumber": [
+        "67"
+      ]
+    },
+    {
+      "regionName": "Aksaray",
+      "regionNumber": [
+        "68"
+      ]
+    },
+    {
+      "regionName": "Bayburt",
+      "regionNumber": [
+        "69"
+      ]
+    },
+    {
+      "regionName": "Karaman",
+      "regionNumber": [
+        "70"
+      ]
+    },
+    {
+      "regionName": "Kırıkkale",
+      "regionNumber": [
+        "71"
+      ]
+    },
+    {
+      "regionName": "Batman",
+      "regionNumber": [
+        "72"
+      ]
+    },
+    {
+      "regionName": "Şırnak",
+      "regionNumber": [
+        "73"
+      ]
+    },
+    {
+      "regionName": "Bartın",
+      "regionNumber": [
+        "74"
+      ]
+    },
+    {
+      "regionName": "Ardahan",
+      "regionNumber": [
+        "75"
+      ]
+    },
+    {
+      "regionName": "Iğdır",
+      "regionNumber": [
+        "76"
+      ]
+    },
+    {
+      "regionName": "Yalova",
+      "regionNumber": [
+        "77"
+      ]
+    },
+    {
+      "regionName": "Karabük",
+      "regionNumber": [
+        "78"
+      ]
+    },
+    {
+      "regionName": "Kilis",
+      "regionNumber": [
+        "79"
+      ]
+    },
+    {
+      "regionName": "Osmaniye",
+      "regionNumber": [
+        "80"
+      ]
+    },
+    {
+      "regionName": "Düzce",
+      "regionNumber": [
+        "81"
+      ]
+    }
+  ]
+}

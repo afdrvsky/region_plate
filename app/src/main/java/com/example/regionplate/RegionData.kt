@@ -2,7 +2,7 @@ package com.example.regionplate
 
 import com.google.gson.annotations.SerializedName
 
-data class RussianRegionData(
+data class RegionData(
     @SerializedName("country")
     val country: String,
 

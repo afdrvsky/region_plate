@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Region name by plate</string>
+    <string name="plate_rus">Region Plate</string>
+    <string name="region_not_found">Region name is not found</string>
+    <string name="type_region">Enter region number</string>
+    <string name="country_name_ru">Russia</string>
+    <string name="country_name_tr">Turkey</string>
+</resources>

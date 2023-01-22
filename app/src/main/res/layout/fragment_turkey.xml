@@ -20,6 +20,29 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/plate_tr" />
 
+        <EditText
+            android:id="@+id/regionNumber"
+            android:layout_width="269dp"
+            android:layout_height="131dp"
+            android:background="@android:color/transparent"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:fontFamily="@font/rus_plate_font"
+            android:gravity="right"
+            android:hint="34"
+            android:inputType="number"
+            android:letterSpacing=".07"
+            android:maxLength="2"
+            android:minHeight="90dp"
+            android:textColor="@color/black"
+            android:textSize="190sp"
+            app:layout_constraintBottom_toBottomOf="@+id/plate_tr"
+            app:layout_constraintEnd_toEndOf="@+id/plate_tr"
+            app:layout_constraintHorizontal_bias="0.612"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/plate_tr"
+            app:layout_constraintVertical_bias="0.532" />
+
         <TextView
             android:id="@+id/outputRegion"
             android:layout_width="301dp"
