@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    app:startDestination="@id/russia">
+    app:startDestination="@id/russia_usual">
     <fragment
-        android:id="@+id/russia"
+        android:id="@+id/russia_usual"
         android:name="com.example.regionplate.RussiaFragment"
         android:label="fragment_russia"
         tools:layout="@layout/fragment_russia" />
@@ -14,4 +14,9 @@
         android:name="com.example.regionplate.TurkeyFragment"
         android:label="fragment_turkey"
         tools:layout="@layout/fragment_turkey" />
+    <fragment
+        android:id="@+id/russia_diplo"
+        android:name="com.example.regionplate.RussiaDipFragment"
+        android:label="fragment_russia_dip"
+        tools:layout="@layout/fragment_russia_dip" />
 </navigation>

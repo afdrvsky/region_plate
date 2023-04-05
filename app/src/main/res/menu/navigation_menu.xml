@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:id="@+id/russia"
-        android:title="@string/country_name_ru"
-        android:icon="@drawable/ru_flag"/>
-    <item android:id="@+id/turkey"
-        android:title="@string/country_name_tr"
-        android:icon="@drawable/tr_flag"/>
+        <item
+            android:id="@+id/russia"
+            android:title="@string/country_name_ru">
+                <menu>
+                        <item
+                            android:id="@+id/russia_usual"
+                            android:title="Обычные номера"/>
+                        <item
+                            android:id="@+id/russia_diplo"
+                            android:title="Дипломатические номера"/>
+                </menu>
+        </item>
+
+        <item
+            android:id="@+id/turkey"
+            android:title="@string/country_name_tr" />
 
 </menu>
